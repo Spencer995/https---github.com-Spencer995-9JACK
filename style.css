@@ -47,7 +47,7 @@ h2{
 p{
     color: #fff;
     font-size: 2rem;
-    line-height: 5rem;
+    line-height: 4rem;
     margin-bottom: 4rem;
 }
 .hobbies li{
@@ -78,9 +78,18 @@ p{
     font-size: 65px;
 }
 #area{
-    color: rgb(214, 202, 202);
+    color: rgb(126, 115, 115);
     font-size: 3rem;
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+@media screen and (max-width: 700px){
+    .container{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .social li a{
+       font-size: 40px;
+    }
 }
